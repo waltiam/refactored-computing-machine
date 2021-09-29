@@ -13,7 +13,6 @@ jobs:
         with:
           name: output-log-file
           path: output.log
-    steps:
       - name: Download a single artifact
         uses: actions/download-artifact@v2
         with:
