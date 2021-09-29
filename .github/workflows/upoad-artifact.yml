@@ -1,3 +1,5 @@
+name: Upload Artifact
+on: [push]
 jobs:
   example-job:
     name: Save output
